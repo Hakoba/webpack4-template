@@ -19,7 +19,7 @@ let conf = {
                // exclude: '/node_modules/'  // исключения если код из нод модулэс es6 то прогонять через бабель не надо
             },
             {
-                test: /\.sass$/,
+                test: /\.s.ss$/,
                 use: ExtractTextPlugin.extract({
                   fallback: 'style-loader',
                   use: ['css-loader', 'sass-loader']
