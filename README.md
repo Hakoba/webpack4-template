@@ -1,1 +1,1 @@
-# webpack4-template
+<p>стартовый Webpack шаблон</p>
